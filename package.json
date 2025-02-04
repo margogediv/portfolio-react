@@ -3,13 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://margogediv.github.io/portfolio-react",
+  "homepage": "https://margogediv.github.io/portfolio-react/",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm build",
+    "predeploy": "tsc -b && vite build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {

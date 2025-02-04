@@ -10,6 +10,7 @@ import { Contact } from './layout/sections/contact/Contact';
 import { Footer } from './layout/footer/Footer';
 
 function App() {
+    
     return (
         <div className="App">
             <AppWrapper>
