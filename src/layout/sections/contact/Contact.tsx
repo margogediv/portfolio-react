@@ -1,12 +1,15 @@
 import styled from "styled-components";
+import {Container} from "../../../components/Container.tsx";
 
 export const Contact = () => {
     return (
         <ContactSection>
-            <ContactTitle>
-                Send me a message, I will be touch with you shortly.
-            </ContactTitle>
-            <ContactForm>form</ContactForm>
+            <Container>
+                <ContactTitle>
+                    Send me a message, I will be touch with you shortly.
+                </ContactTitle>
+                <ContactForm>form</ContactForm>
+            </Container>
         </ContactSection>
     );
 };

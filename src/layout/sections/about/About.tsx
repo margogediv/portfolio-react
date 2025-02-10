@@ -1,29 +1,32 @@
 import { FlexWrapper } from '../../../components/FlexWrapper';
 import styled from 'styled-components';
+import {Container} from "../../../components/Container.tsx";
 
 export const About = () => {
     return (
         <AboutSection>
-            <FlexWrapper gap={"79px"}>
-                <AboutTitle>About Me.</AboutTitle>
-                <AboutText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
-                </AboutText>
-            </FlexWrapper>
-            <AboutList>
-                <AboutItem>
-                    <AboutItemCount>4K</AboutItemCount>
-                    <AboutItemTitle>Projects Done</AboutItemTitle>
-                </AboutItem>
-                <AboutItem>
-                    <AboutItemCount>2K</AboutItemCount>
-                    <AboutItemTitle>Happy Clients</AboutItemTitle>
-                </AboutItem>
-                <AboutItem>
-                    <AboutItemCount>9K</AboutItemCount>
-                    <AboutItemTitle>Clients on Worldwide</AboutItemTitle>
-                </AboutItem>
-            </AboutList>
+            <Container>
+                <FlexWrapper $gap={"79px"}>
+                    <AboutTitle>About Me.</AboutTitle>
+                    <AboutText>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
+                    </AboutText>
+                </FlexWrapper>
+                <AboutList>
+                    <AboutItem>
+                        <AboutItemCount>4K</AboutItemCount>
+                        <AboutItemTitle>Projects Done</AboutItemTitle>
+                    </AboutItem>
+                    <AboutItem>
+                        <AboutItemCount>2K</AboutItemCount>
+                        <AboutItemTitle>Happy Clients</AboutItemTitle>
+                    </AboutItem>
+                    <AboutItem>
+                        <AboutItemCount>9K</AboutItemCount>
+                        <AboutItemTitle>Clients on Worldwide</AboutItemTitle>
+                    </AboutItem>
+                </AboutList>
+            </Container>
         </AboutSection>
     );
 };

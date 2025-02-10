@@ -1,40 +1,43 @@
 import styled from 'styled-components';
 import { FlexWrapper } from '../../../components/FlexWrapper';
+import {Container} from "../../../components/Container.tsx";
 
 export const Help = () => {
     return (
         <HelpSection>
-            <FlexWrapper gap={"145px"}>
-                <HelpList>
-                    <HelpItem>
-                        <HelpListTitle>Web Design</HelpListTitle>
-                        <HelpListSubTitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</HelpListSubTitle>
-                    </HelpItem>
-                    <HelpItem>
-                        <HelpListTitle>UI/UX Design</HelpListTitle>
-                        <HelpListSubTitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</HelpListSubTitle>
-                    </HelpItem>
-                </HelpList>
-                <div>
-                    <HelpTitle>What I Can Do To Help Build Your Product</HelpTitle>
-                    <HelpSubTitle>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
-                    </HelpSubTitle>
+            <Container>
+                <FlexWrapper $gap={"145px"}>
+                    <HelpList>
+                        <HelpItem>
+                            <HelpListTitle>Web Design</HelpListTitle>
+                            <HelpListSubTitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</HelpListSubTitle>
+                        </HelpItem>
+                        <HelpItem>
+                            <HelpListTitle>UI/UX Design</HelpListTitle>
+                            <HelpListSubTitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</HelpListSubTitle>
+                        </HelpItem>
+                    </HelpList>
                     <div>
-                        <div>user</div>
-                        <FlexWrapper gap={"60px"}>
-                            <div>
-                                <HelpProgressCount>+52.5%</HelpProgressCount>
-                                <HelpProgressTitle>Task finished</HelpProgressTitle>
-                            </div>
-                            <div>
-                                <HelpProgressCount>+67.5%</HelpProgressCount>
-                                <HelpProgressTitle>Progress speed</HelpProgressTitle>
-                            </div>
-                        </FlexWrapper>
+                        <HelpTitle>What I Can Do To Help Build Your Product</HelpTitle>
+                        <HelpSubTitle>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
+                        </HelpSubTitle>
+                        <div>
+                            <div>user</div>
+                            <FlexWrapper $gap={"60px"}>
+                                <div>
+                                    <HelpProgressCount>+52.5%</HelpProgressCount>
+                                    <HelpProgressTitle>Task finished</HelpProgressTitle>
+                                </div>
+                                <div>
+                                    <HelpProgressCount>+67.5%</HelpProgressCount>
+                                    <HelpProgressTitle>Progress speed</HelpProgressTitle>
+                                </div>
+                            </FlexWrapper>
+                        </div>
                     </div>
-                </div>
-            </FlexWrapper>
+                </FlexWrapper>
+            </Container>
         </HelpSection>
     );
 };

@@ -1,15 +1,18 @@
 import styled from "styled-components";
+import {Container} from "../../../components/Container.tsx";
 
 export const Reviews = () => {
     return (
         <ReviewsSection>
-            <ReviewsContent>
-                <ReviewsTitle> John Wick</ReviewsTitle>
-                <ReviewsSubTitle>Manager</ReviewsSubTitle>
-                <ReviewsText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquen
-                </ReviewsText>
-            </ReviewsContent>
+            <Container>
+                <ReviewsContent>
+                    <ReviewsTitle> John Wick</ReviewsTitle>
+                    <ReviewsSubTitle>Manager</ReviewsSubTitle>
+                    <ReviewsText>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquen
+                    </ReviewsText>
+                </ReviewsContent>
+            </Container>
         </ReviewsSection>
     );
 };
