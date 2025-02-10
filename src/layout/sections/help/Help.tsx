@@ -42,7 +42,7 @@ export const Help = () => {
     );
 };
 
-const HelpSection = styled.div`
+const HelpSection = styled.section`
     padding: 100px 15px;
 `
 

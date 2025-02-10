@@ -18,7 +18,7 @@ export const WorkPlatform = () => {
     );
 };
 
-const StyledPlatform = styled.div`
+const StyledPlatform = styled.section`
     background-color: #181E41;
     padding: 55px 15px 50px;
 

@@ -31,7 +31,7 @@ export const About = () => {
     );
 };
 
-const AboutSection = styled.div`
+const AboutSection = styled.section`
     padding: 80px 15px;
     background: linear-gradient(214.02deg, rgba(183, 92, 255, 0.5) 6.04%, rgba(103, 26, 228, 0.5) 92.95%);
 `

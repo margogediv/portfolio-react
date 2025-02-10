@@ -26,7 +26,7 @@ export const Main = () => {
     );
 };
 
-const StyledMain = styled.div`
+const StyledMain = styled.section`
     padding: 80px 0 45px;
 `
 const BoxMainTitle = styled.div`
