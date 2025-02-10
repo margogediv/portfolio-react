@@ -4,7 +4,7 @@ import {Container} from "../../components/Container.tsx";
 import {FlexWrapper} from "../../components/FlexWrapper";
 import {HeaderMenu} from "./HeaderMenu";
 
-const items =["Main", "WorkPlatform", "About", "Help", "Reviews", "Let’s Talk"]
+const items =["Main", "WorkPlatform", "About", "Help", "Reviews"]
 
 export const Header = () => {
     return (
