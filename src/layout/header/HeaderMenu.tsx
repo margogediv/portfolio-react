@@ -36,7 +36,8 @@ const Link = styled.a`
     color: #fff;
     transition: .2s linear;
 
-    &:hover {
+    &:hover,
+    &:focus {
         color: ${theme.colors.accentFont};
     }
 `
