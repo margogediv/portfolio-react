@@ -5,5 +5,10 @@ export const theme = {
         accentFont: "#913df2",
         accentBlock: "linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%)",
         mainFont: "rgba(255, 255, 255, 0.5)",
+    },
+    media: {
+        mobile: "(min-width: 420px)",
+        tablet: "(min-width: 768px)",
+        desktop: "(min-width: 10px)",
     }
 }

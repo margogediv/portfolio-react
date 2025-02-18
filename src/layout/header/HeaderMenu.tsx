@@ -17,13 +17,17 @@ export const HeaderMenu = (props: {menuItems: Array<string>}) => {
 };
 
 const StyledHeaderMenu = styled.nav`
+    display: none;
     padding: 0;
     margin: 0;
     list-style: none;
-    display: flex;
     align-items: center;
     gap: 40px;
     justify-content: center;
+    
+    @media ${theme.media.tablet} {
+        display: flex;
+    }
 `
 
 const ListItem = styled.li`
